@@ -34,22 +34,28 @@ Information Technology graduate (**B.S. in IT, GPA 3.56 / 4.00**) specializing i
 
 ## 🚀 FEATURED PRODUCTION PROJECTS
 
-### 1. 💼 [Enterprise Accounting & Financial Management System](https://github.com/RagadaRahmansy/accounting-laravel)
+### 1. 🏛️ [Enterprise Data Warehouse & Analytics Pipeline](https://github.com/RagadaRahmansy/ecommerce-rfm-analytics-dashboard)
+*Tech: dbt Core, DuckDB, Supabase PostgreSQL, Python, Kimball SQL Modeling, React 19*
+- Engineered an end-to-end columnar analytics pipeline following the **Medallion Architecture** (*Bronze* raw ingestion ➔ *Silver* deduplication/staging ➔ *Gold* executive marts).
+- Modeled dimensional data using Kimball methodology (`dim_customers`, `dim_products`, `fct_orders`, `mart_cohort_retention`, `mart_rfm`) powering automated cohort retention curves, LTV:CAC unit economics, and executive PDF audit reporting.
+
+### 2. 🛡️ [KreditLens — Fintech Credit Risk Analytics & Dossier](https://github.com/RagadaRahmansy/ecommerce-rfm-analytics-dashboard)
+*Tech: Python, Vanilla JS, Modern Data Visualization, Financial Ledger Architecture*
+- Designed an interactive credit risk dossier analyzing Probability of Default (PD), Non-Performing Loan (NPL) exposure, and stress-testing liquidity ratios with a transparent glassbox audit trail.
+
+### 3. 💼 [Enterprise Accounting & Financial Management System](https://github.com/RagadaRahmansy/accounting-laravel)
 *Tech: Laravel 9, Livewire 2, MySQL, Laravel Sanctum, AdminLTE 3*
-- Multi-module financial accounting platform handling cash transactions, accounts receivable (piutang), customer layaway installment schedules (cicilan), and project costing.
-- Automated daily ledger reconciliation and multi-statement reporting (income, expenses, cash flow history) with role-based access control.
+- Multi-module financial accounting platform handling cash transactions, accounts receivable (piutang), customer layaway installment schedules (cicilan), and project costing with automated daily ledger reconciliation.
 
-### 2. 🚚 [Tobacco Supply Chain OS & Inventory Management](https://github.com/RagadaRahmansy/ragada-tobacco-supply-chain)
+### 4. 🚚 [Tobacco Supply Chain OS & Inventory Management](https://github.com/RagadaRahmansy/ragada-tobacco-supply-chain)
 *Tech: FastAPI, React 19, PostgreSQL, Docker*
-- Complex B2B distribution process modeling: automated multi-tier packaging conversions (*1 Karton = 4 Bal = 80 Slop = 800 Pack*) with automated ledger stock deduction.
-- Credit terms receivables (TOP) tracking, mobile canvas sales interaction flow, and immutable stock audit ledger.
+- Complex B2B distribution process modeling: automated multi-tier packaging conversions (*1 Karton = 4 Bal = 80 Slop = 800 Pack*) with automated ledger stock deduction, credit terms (TOP) tracking, and canvas sales flow.
 
-### 3. 📊 [Enterprise E-Commerce SaaS & RFM Analytics Platform](https://github.com/RagadaRahmansy/ecommerce-rfm-analytics-dashboard)
+### 5. 📊 [Enterprise E-Commerce SaaS & RFM Analytics Platform](https://github.com/RagadaRahmansy/ecommerce-rfm-analytics-dashboard)
 *Tech: FastAPI, React 19, PostgreSQL, Redis, Docker Compose*
-- Zero-leak multi-tenant SaaS computing automated customer RFM (Recency, Frequency, Monetary) segmentation matrices.
-- Dual-Axis visual telemetry for GMV, order volume, and AOV tracking with hardened container security (`no-new-privileges:true`).
+- Zero-leak multi-tenant SaaS computing automated customer RFM segmentation matrices and dual-axis visual telemetry with hardened container security (`no-new-privileges:true`).
 
-### 4. 📈 [Business Operations & Sales Analytics Dashboard](https://github.com/RagadaRahmansy/power-BI)
+### 6. 📈 [Business Operations & Sales Analytics Dashboard](https://github.com/RagadaRahmansy/power-BI)
 *Tech: Power BI, DAX, PostgreSQL, Star-Schema*
 - Executive KPI dashboards delivering actionable visibility into sales velocity, inventory turnover, and product performance bottlenecks.
 
